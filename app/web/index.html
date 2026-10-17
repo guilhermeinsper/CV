@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CV · Painel de Controle</title>
+<link rel="stylesheet" href="style.css?v=3.2.0">
+</head>
+<body>
+<aside id="lateral">
+  <div class="marca"><span class="logo">CV</span><div><b>Painel de Controle</b><small>dados/cv.db · local</small></div></div>
+  <nav>
+    <a data-v="workflow" class="ativo"><i>◇</i>Workflow</a>
+    <a data-v="videos"><i>▶</i>Vídeos <em id="nproc" class="azul"></em></a>
+    <a data-v="execucoes"><i>▤</i>Execuções e logs</a>
+    <a data-v="falhas"><i>!</i>Falhas e alertas <em id="nfalhas"></em></a>
+    <a data-v="banco"><i>▦</i>Banco de dados</a>
+  </nav>
+  <div class="rodape" id="statusServidor">conectando…</div>
+</aside>
+<main id="principal"></main>
+<div id="gaveta" class="fechada"><button class="fechar" onclick="fecharGaveta()">×</button><div id="gavetaConteudo"></div></div>
+<div id="lightbox" onclick="this.classList.remove('aberta')"><img id="lightboxImg" alt=""></div>
+<script src="app.js?v=3.2.0"></script>
+</body>
+</html>

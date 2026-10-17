@@ -1,0 +1,13 @@
+﻿.venv/
+.env
+.playwright-mcp/
+dados/
+logs/
+listas/
+arquivo/
+curriculos/
+relatorios/
+painel/
+config.json
+__pycache__/
+*.py[cod]
